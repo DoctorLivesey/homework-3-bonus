@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+}
+.main{
+	width: 960px;
+	height: 883px;
+	background: url(../img/Background.jpg) no-repeat;
+	margin:0 auto;
+}
+/*HEAdER*/
+.logo{
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 56px;
+}
+.contacts{
+	float:right;
+	margin-right: 85px;
+	margin-top: 151px;
+}
+/*CONTRIES*/
+.contries{
+	height: 435px;
+	width: 830px;
+	margin: -7px auto;
+}
+.contries>img{
+	float: left;
+	margin-right: 10px;
+}
+.contries .tibet,
+.contries .maldives{
+	margin-right: 0;
+}
+.bhutan, .sriLanka, .maldives{
+	margin-top: 47px;
+}
+/*FOOTER*/
+.footer{
+	display: inline-block;
+	margin-left: 400px;
+	margin-top: 188px;
+}
+
+
